@@ -435,15 +435,6 @@ class LoginAwt{
 				}
 			}
 		}
-		
-		
-		
-		System.out.println("####FRIEND REQUEST####");
-			for(int q=0;q<friendRequestUsers.size();q++){
-				if(!friendRequestUsers.get(q).equals("default")){
-					System.out.println(q+" : "+friendRequestUsers.get(q));
-				}
-			}
 	}
 	
 	void acceptReject(int k){
@@ -493,19 +484,6 @@ class LoginAwt{
 															
 															fr4.dispose();
 															acceptReject(k);
-															
-															System.out.println("####FRIEND REQUEST######");
-															for(int q=0;q<friendRequestUsers.size();q++){
-																if(!friendRequestUsers.get(q).equals("default")){
-																	System.out.println(q+" : "+friendRequestUsers.get(q));
-																}
-															}
-															System.out.println("####FRIEND USER####");
-															for(int w=0;w<friendUsers.size();w++){
-																if(!friendUsers.get(w).equals("default")){
-																	System.out.println(w+" : "+friendUsers.get(w));
-																}
-															}
 														}
 													}
 												}
