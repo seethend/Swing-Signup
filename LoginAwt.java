@@ -363,7 +363,6 @@ class LoginAwt{
 				
 				button.addActionListener(new ActionListener(){
 					public void actionPerformed(ActionEvent e){
-						//JOptionPane.showMessageDialog(null, "Request Sent to "+label.getText());
 						button.setText("Request Sent");
 						sendRequest(k,label.getText());
 						
